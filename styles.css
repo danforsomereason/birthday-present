@@ -1,0 +1,27 @@
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(270, 60%, 19%);
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--clr-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F7F7F7;
+}
+
+#joke-container {
+   border: 10px solid pink;
+   padding: 50px;
+   font-size: 28px;
+   font-weight: bold;
+   color: #F7F7F7;
+   outline-offset: 0.5rem;
+}
+
+#joke-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 20px 30px -5px rgba(0, 0, 0, 0.5);
+}
